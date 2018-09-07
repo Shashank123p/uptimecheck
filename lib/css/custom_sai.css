@@ -1,11 +1,19 @@
 /* This CSS is written by Sai*/
 
 
+body {
+	background-image: url("../../img3.jpg");
+	background-color: #cccccc;
+}
+
 .container-center {
-         width: 40vw; /*optional*/
-         height: 40vh;
-         margin: 30vh auto;
- }
+	width: 40vw; /*optional*/
+	height: 40vh;
+	margin: 30vh auto;
+}
 
 
-	
+
+
+
+
