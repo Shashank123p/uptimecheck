@@ -17,28 +17,68 @@
 
 
  <body>
- 
 	<!-- Navbar starts here -->
 	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Uptime</a>
+      <a class="navbar-brand" href="#">uptime</a>
+	 
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li>Welcome...</li>
-      <li><a href="index.html"> Logout</a></li>
+ 	  
+	<ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">logout</a></li>
     </ul>
+					
+					
   </div>
-</nav>
+  </nav>
+  
   <!-- Navbar ends here -->
-  <div class="container">
-  <h2>List Group With Badges</h2>
-  <ul class="list-group">
-    <li class="list-group-item">name<span class="badge">up</span></li>
-    <li class="list-group-item">Deleted <span class="badge">down</span></li>
-  </ul>
+  <!-- Form to add a website -->
+  <div class="row">
+
+  <div class="col-sm-6 col-sm-offset-3">
+    <div class="jumbotron" style="padding:30px">
+  <h4> Add website to monitor </h4>
+<form class="form-inline">
+    <div class="form-group">
+    <label class="sr-only" for="sitename">Enter Name:</label>
+    <input type="name" class="form-control" id="sitename" placeholder="Website Name">
+ </div> 
+  <div class="form-group">
+    <label class="sr-only" for="url">URL:</label>
+    <input type="text" class="form-control" id="url" placeholder="URL">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Start Monitoring</button>
+
+</form>
 </div>
- 
+</div>
+</div>
+<!-- Form ends here -->
+
+<!-- Start listgroup -->
+  <div class="row" style="margin-top:30px">
+  <div class="col-sm-6 col-sm-offset-3">
+<ul class="list-group">
+  <li class="list-group-item">
+  <a href="https://www.google.com" class="btn btn-primary" style="margin-left:5px">Google </a>
+	<span style="padding-left:40px"> https://www.google.com </span>
+    <span class="badge" style="background-color:green">Ok</span>
+	</li>
+	<li class="list-group-item">
+	<a href="https://www.facebook.com" class="btn btn-primary" style="margin-left:5px">facebook</a>
+	<span style="padding-left:40px">https://www.facebook.com</span>
+	<span class="badge"style="background-color:red">critical</span>
+	</li>
+    
+	
+  
+</ul>
+</div>
+</div>
+<!-- list group ends here -->
 
    <!-- Scripts start here. -->
    <script src="lib/js/jquery.min.js"></script>
