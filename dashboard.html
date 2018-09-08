@@ -10,6 +10,8 @@
  <meta name="author" content="">
 
  <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 
  <title> Uptime - Dashboard </title>
 
@@ -62,19 +64,37 @@
     <div class="col-sm-6 col-sm-offset-3">
       <ul class="list-group">
         <li class="list-group-item">
-          <!-- <a href="https://www.google.com" class="btn btn-primary" style="margin-left:5px">Google </a>
-          <span style="padding-left:40px"> https://www.google.com </span> -->
-          <a href="https://www.google.com" class="btn btn-primary" data-toggle="collapse" data-target="#demo" style="margin-left:5px">Google </a>
+  <!--   <button type="button" class="glyphicon glyphicon-chevron-down" data-toggle="collapse" data-target="#demo"></button>
+      <div id="demo" class="collapse">
+        its google
+      </div>
+         -->
+         <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#dem">
+          <i class="fas fa-angle-down"></i>
+        </button>
+          <a href="https://www.google.com" class="btn btn-primary" style="margin-left:5px">Google </a>
           <span style="padding-left:40px"> https://www.google.com </span>
-          <div id="demo" class="collapse">
-            this is google page
-          </div>
           <span class="badge" style="background-color:green">Ok</span>
+          <div id="dem" class="collapse">
+        its google
+      </div>
         </li>
+
         <li class="list-group-item">
+
+
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo">
+          <i class="fas fa-angle-down"></i>
+        </button>
+
          <a href="https://www.facebook.com" class="btn btn-primary" style="margin-left:5px">facebook</a>
          <span style="padding-left:40px">https://www.facebook.com</span>
-         <span class="badge"style="background-color:red">critical</span>
+         <span class="badge" style="background-color:red">critical</span>
+
+
+      <div id="demo" class="collapse">
+        its facebook
+      </div>
        </li>
 
 
@@ -87,6 +107,7 @@
  <!-- Scripts start here. -->
  <script src="lib/js/jquery.min.js"></script>
  <script src="lib/js/bootstrap.min.js"></script>
+ <script src="lib/js/dashboard.js"></script>
  <!-- Scripts end here -->
 
 </body>
