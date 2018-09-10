@@ -1,64 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 
- <head>
+<head>
 
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <meta name="description" content="">
-   <meta name="author" content="">
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="description" content="">
+ <meta name="author" content="">
 
+<<<<<<< HEAD
    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
    <link href="lib/css/custom_sai.css" rel="stylesheet">
+=======
+ <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+>>>>>>> c86153cc61cba9f274e122332f0b564b6cbb1736
 
-   <title> Uptime - Dashboard </title>
 
- </head>
+ <title> Uptime - Dashboard </title>
+
+</head>
 
 
- <body>
+<body>
 	<!-- Navbar starts here -->
 	<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Uptime</a>
-	 
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Uptime</a>
+
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html"> Logout</a></li>
+      </ul>
+
     </div>
-
-    <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"> Logout</a></li>
-    </ul>
-
-  </div>
   </nav>
   
   <!-- Navbar ends here -->
   <!-- Form to add a website -->
   <div class="row">
 
-  <div class="col-sm-6 col-sm-offset-3">
-    <div class="jumbotron" style="padding:30px">
-  <h4> Add website to monitor </h4>
-<form class="form-inline">
-    <div class="form-group">
-    <label class="sr-only" for="sitename">Enter Name:</label>
-    <input type="name" class="form-control" id="sitename" placeholder="Website Name">
- </div> 
-  <div class="form-group">
-    <label class="sr-only" for="url">URL:</label>
-    <input type="text" class="form-control" id="url" placeholder="URL">
+    <div class="col-sm-6 col-sm-offset-3">
+      <div class="jumbotron" style="padding:30px">
+        <h4> Add website to monitor </h4>
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="sitename">Enter Name:</label>
+            <input type="name" class="form-control" id="sitename" placeholder="Website Name">
+          </div> 
+          <div class="form-group">
+            <label class="sr-only" for="url">URL:</label>
+            <input type="text" class="form-control" id="url" placeholder="URL">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Start Monitoring</button>
+
+        </form>
+      </div>
+    </div>
   </div>
-  
-  <button type="submit" class="btn btn-primary">Start Monitoring</button>
+  <!-- Form ends here -->
 
-</form>
-</div>
-</div>
-</div>
-<!-- Form ends here -->
-
-<!-- Start listgroup -->
+  <!-- Start listgroup -->
   <div class="row" style="margin-top:30px">
   <div class="col-sm-6 col-sm-offset-3">
 <ul class="list-group">
@@ -91,7 +97,58 @@
    <script src="lib/js/bootstrap.min.js"></script>
    <!-- Scripts end here -->
 
- </body>
+ </body
+    <div class="col-sm-6 col-sm-offset-3">
+      <ul class="list-group">
+        <li class="list-group-item">
+  <!--   <button type="button" class="glyphicon glyphicon-chevron-down" data-toggle="collapse" data-target="#demo"></button>
+      <div id="demo" class="collapse">
+        its google
+      </div>
+         -->
+         <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#dem">
+          <i class="fas fa-angle-down"></i>
+        </button>
+          <a href="https://www.google.com" class="btn btn-primary" style="margin-left:5px">Google </a>
+          <span style="padding-left:40px"> https://www.google.com </span>
+          <span class="badge" style="background-color:green">Ok</span>
+          <div id="dem" class="collapse">
+        its google
+      </div>
+        </li>
+
+        <li class="list-group-item">
+
+
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo">
+          <i class="fas fa-angle-down"></i>
+        </button>
+
+         <a href="https://www.facebook.com" class="btn btn-primary" style="margin-left:5px">facebook</a>
+         <span style="padding-left:40px">https://www.facebook.com</span>
+         <span class="badge" style="background-color:red">critical</span>
+
+
+      <div id="demo" class="collapse">
+        its facebook
+      </div>
+       </li>
+
+
+
+     </ul>
+   </div>
+ </div>
+ <!-- list group ends here -->
+
+ <!-- Scripts start here. -->
+ <script src="lib/js/jquery.min.js"></script>
+ <script src="lib/js/bootstrap.min.js"></script>
+ <script src="lib/js/dashboard.js"></script>
+ <!-- Scripts end here -->
+
+</body>
+
 
 
 </html>

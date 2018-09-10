@@ -1,21 +1,22 @@
 /* This CSS is written by Sai*/
 
-
+/* image */
 body {
 	background-image: url("../../img3.jpg");
 	background-color: #cccccc;
 }
 
+/* page center allignment */
 .container-center {
 	width: 40vw; /*optional*/
-	height: 40vh;
-	margin: 30vh auto;
+	height: 50vh;
+	margin: 30vh ;
 }
 
+/* searcch bar */
 .searchbar-center {
-	margin: 30vh auto;
+	margin: 40vh auto;
 }
-
 
 
 
