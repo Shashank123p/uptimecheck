@@ -1,17 +1,26 @@
 /* This CSS is written by Soumya*/
-* Style the search box inside the navigation bar */
-.topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
+body {
+background-image: url("../../lap2.jpg");
+	background-color: #cccccc;
 }
 
-input[type=text] 
-{ 
-width: 100%;
-box-sizing: border-box;
-height: 28px; }
+* page center allignment */
+.container-center {
+	width: 40vw; /*optional*/
+	height: 50vh;
+	margin: 30vh ;
+}
+
+/* searcch bar */
+.searchbar-center {
+	margin: 40vh auto;
+}
+
+
+
+
+
+
+
+
 
