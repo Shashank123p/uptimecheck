@@ -1,8 +1,10 @@
 /* This CSS is written by Sai*/
-
+.header {
+    background-color:#37474F;
+}
 /* image */
 body {
-	background-image: url("../../img4.jpg");
+	background-image: url("../../img.jpg");
 	background-color: #cccccc;
 }
 
@@ -20,13 +22,12 @@ body {
 
 /* footer */
 footer {
-	background-color:#222222;
-	padding: 20px 0px;
+	background-color:#37474F;
+	padding: 7px 0px;
 }
 
 footer .menu li a{
 	color:#b1aca1;
-	padding:33px;
+	padding:38px;
 	text-decoration:none;
 }
-
